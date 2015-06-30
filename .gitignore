@@ -2,3 +2,6 @@ target
 *.class
 
 *.iml
+.m2-srclib
+.srclib-cache
+
