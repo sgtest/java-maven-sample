@@ -1,5 +1,6 @@
 package mypkg;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -16,6 +17,12 @@ public class Wildcard {
 	}
 
 	void unbound(List<?> list) {
+	}
+
+	void foo() {
+		upper(new ArrayList<Integer>());
+		lower(new ArrayList<Integer>());
+		unbound(new ArrayList<Integer>());
 	}
 
 }
